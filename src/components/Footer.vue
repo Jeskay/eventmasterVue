@@ -22,7 +22,7 @@ export default defineComponent({
     },
 });
 </script>
-<style scoped>
+<style>
     .footer {
         @apply fixed bottom-0 left-0 right-0 flex justify-between border-t-2 py-5 border-slate-300;
     }

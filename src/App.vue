@@ -1,5 +1,8 @@
 <template>
     <NavBar/>
+    <div class="content-container">
+      <router-view></router-view>
+    </div>
     <Footer/>
 </template>
 
@@ -14,4 +17,10 @@ export default defineComponent({
 </script>
 
 <style>
+  NavBar {
+    @apply z-50;
+  }
+  .content-container {
+    @apply z-40;
+  }
 </style>
