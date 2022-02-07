@@ -24,7 +24,7 @@ export default defineComponent({
 </script>
 <style>
     .footer {
-        @apply fixed bottom-0 left-0 right-0 flex justify-between border-t-2 py-5 border-slate-300;
+        @apply flex mt-5 justify-between border-t-2 py-5 border-slate-300;
     }
     svg {
         @apply mx-2 hover:fill-slate-600;

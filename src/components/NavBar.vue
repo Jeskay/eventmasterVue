@@ -4,7 +4,7 @@
             <img class="logo" src="src/assets/bot_logo.png"/>
             <h1>EventMaster</h1>
         </div>
-        <div class="grid grid-cols-5 justify-items-center">
+        <div class="hidden sm:grid grid-cols-5 justify-items-center">
             <router-link class ="nav-link" to="/">About</router-link>
             <a class ="nav-link" href="#">Invite bot</a>
             <router-link class ="nav-link" to="/Tutorial">Tutorial</router-link>
@@ -18,6 +18,13 @@
             </div>
             <a v-if="!userAvatarUrl" class ="nav-link" href="#">Log in</a>
            <img v-else class="avatar" src="src/assets/avatarsample.jpg" />
+        </div>
+        <div class="grid sm:hidden">
+            <button class="rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
         </div>
     </div>
 </template>
