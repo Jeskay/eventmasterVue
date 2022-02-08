@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-center">
-        <div class="w-full sm:w-3/4 md:w-2/3 shadow-md overflow-hidden">
+    <div class="side-bg">
+        <div class="container">
             <div class="tutorial">
                 <h2 class=" tutorial-header">Inviting the bot</h2>
                     <img class=" tutorial-image" :src="gif1Path"/>

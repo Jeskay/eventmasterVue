@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center">
+    <div class="side-bg">
         <div class="container">
             <img :src="image1URL">
             <div class="main-card">
@@ -126,8 +126,5 @@ setup: () => {
     }
     .card-content {
         @apply col-span-3 row-span-3 z-20;
-    }
-    .container {
-        @apply w-full sm:w-3/4 md:w-2/3 shadow-md overflow-hidden;
     }
 </style>
