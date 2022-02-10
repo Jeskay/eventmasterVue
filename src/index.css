@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .container {
-    @apply w-full sm:w-3/4 md:w-2/3 shadow-md overflow-hidden;
+    @apply w-full sm:w-3/4 md:w-2/3 shadow-md h-fit pb-5 overflow-hidden;
 }
 .side-bg {
-    @apply flex justify-center;
+    @apply flex justify-center min-h-screen;
 }
